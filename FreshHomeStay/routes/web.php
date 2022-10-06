@@ -19,15 +19,18 @@ Route::get('/welcome', function () {
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/home', function () {
+    return view('home');
+});
 Route::get('/about', function (){
-    echo "<h1> about</h1>";
     return view('about');
 });
 Route::get('/facilities', function (){
-    echo "<h1> facilities</h1>";
     return view('facilities');
 });
 Route::get('/contact', function (){
-    echo "<h1> contact</h1>";
     return view('contact');
+});
+Route::get('/room', function (){
+    return view('room');
 });
