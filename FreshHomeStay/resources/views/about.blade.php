@@ -113,13 +113,8 @@
         </div>
     </div>
 
-    <!-- footer -->
-    @include('layouts.footer')
-
-
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".mySwiper", {
@@ -145,14 +140,5 @@
         });
     </script>
 
-
-
-
-    <!-- Initialize Swiper -->
-
-
-
-
 </body>
-
 </html>

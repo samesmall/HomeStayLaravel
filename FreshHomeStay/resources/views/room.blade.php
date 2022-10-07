@@ -237,15 +237,6 @@
             </div>      
         </div>
     </div>
-    <!-- footer -->
-    @include('layouts.footer')
-
-
-    <!-- Initialize Swiper -->
-
-
-
-
+ 
 </body>
-
 </html>
