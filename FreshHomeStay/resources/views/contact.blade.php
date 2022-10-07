@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fresh HomeStay - Contact</title>
 </head>
-  <!-- header -->
-  @include('layouts.header')
+   <!-- header -->
+   @include('layouts.header')
 <body class="bg-light">
     <div class="my-5 px-4">
         <h2 class="fw-bold h-font text-center">CONTACT US</h2>
@@ -84,15 +84,6 @@
             </div>
         </div>
     </div>
-    <!-- footer -->
-      @include('layouts.footer')
-
-
-    <!-- Initialize Swiper -->
-
-
-
-
+    
 </body>
-
 </html>
